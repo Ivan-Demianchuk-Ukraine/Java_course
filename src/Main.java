@@ -1,6 +1,13 @@
-//4. Повторить задание 2, но выполнить его в отдельных методах и запустить эти методы в методе Main
-
 public class Main {
+
+    public static long TestIntLong(int a, long b) {
+        return a + b;
+    }
+
+    public static boolean TestDoubleFloat(double a, float b, int c) {
+        return a == b && a == c;
+    }
+
     public static void main(String[] args) {
         byte a = 1;
         short b = 2;
@@ -14,8 +21,8 @@ public class Main {
         char z = 9;
         int k = (int) (b - d);
         int in = b + a;
-
-
+        System.out.println(TestIntLong(99, 13));
+        System.out.println(TestDoubleFloat(99, 99, 99));
         System.out.println(b * d);
         System.out.println(g / c);
         System.out.println(j);
@@ -29,4 +36,5 @@ public class Main {
         System.out.println(in + k);
 
     }
+
 }
