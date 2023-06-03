@@ -26,6 +26,7 @@ public class Main {
         System.out.println(Math.round(g));
         System.out.println(k);
         System.out.println(in);
+        System.out.println(in + k);
 
     }
 }
