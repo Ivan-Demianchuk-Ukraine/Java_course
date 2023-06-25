@@ -9,33 +9,41 @@ public class Main {
     }
 
     public static void homework5() {
+        String result = "";
         for (int i = 5; i > 0; i--) {
-            System.out.println(i);
+            result = result + i + " ";
         }
+        System.out.println(result);
     }
 
     public static void homework6() {
-        int i = 100;
-        while (i > 1) {
-            System.out.println(i);
+        String result = "";
+        int i = 110;
+        while (i > 10) {
             i = i - 10;
+            result = result + i + " ";
         }
+        System.out.println(result);
     }
 
     public static void homework7() {
-        int i = 7;
-        while (i != 105) {
-            System.out.println(i);
+        String result = "";
+        int i = 0;
+        while (i != 98) {
             i = i + 7;
+            result = result + i + " ";
         }
+        System.out.println(result);
     }
 
     public static void homework8() {
+        String result = "";
         int i = 1;
-        while (i != 1024) {
-            System.out.println(i);
+        while (i != 512) {
             i = i * 2;
+            result = result + i + " ";
             }
+        System.out.println(1 + " " + result);
     }
 
     public static void homework9() {
