@@ -1,54 +1,48 @@
-//        Необходимо написать программу, где бы пользователю предлагалось ввести число на выбор: 1, 2 или 3,
-//        а программа должна сказать, какое число ввёл пользователь: 1, 2, или 3 и в том случаи, если пользователь ввёл
-//        какое-либо другое число программа должна отвечать „Вы ввели число не равное 1, 2 или 3“
-
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
-        homework1();
-        homework2();
-        homework3();
-    }
-    public static void homework1() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("First Number: ");
-        int first_number = scanner.nextInt();
-        System.out.println("Second Number: ");
-        int second_number = scanner.nextInt();
-        System.out.println("Your Name: ");
-        String name = scanner.next();
-        String result = name + " - " + (first_number + second_number);
-        System.out.println("Result: ");
-        System.out.println(result);
+        homework5();
+        homework6();
+        homework7();
+        homework8();
+        homework9();
     }
 
-    public static void homework2() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number 1: ");
-        int number = scanner.nextInt();
-
-        if (number == 1) {
-            System.out.println("Correct! You entered number 1");
-        } else {
-            System.out.println("Wrong! You entered NOT number 1");
+    public static void homework5() {
+        for (int i = 5; i > 0; i--) {
+            System.out.println(i);
         }
     }
 
-    public static void homework3() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number 1, 2 or 3: ");
-        int number = scanner.nextInt();
+    public static void homework6() {
+        int i = 100;
+        while (i > 1) {
+            System.out.println(i);
+            i = i - 10;
+        }
+    }
 
-        if (number == 1) {
-            System.out.println("Correct! You entered number 1");
-        } if (number == 2) {
-            System.out.println("Correct! You entered number 2");
-        } else if (number == 3) {
-            System.out.println("Correct! You entered number 3");
-        } else {
-            System.out.println("Wrong! You entered NOT 1,2,3 numbers!");
+    public static void homework7() {
+        int i = 7;
+        while (i != 105) {
+            System.out.println(i);
+            i = i + 7;
+        }
+    }
+
+    public static void homework8() {
+        int i = 1;
+        while (i != 1024) {
+            System.out.println(i);
+            i = i * 2;
+            }
+    }
+
+    public static void homework9() {
+        int multiplier = 1;
+        for (int i = 10; i > 0; i--){
+            System.out.println("3*" + multiplier + "=" + 3 * multiplier);
+            multiplier++;
         }
     }
 }
