@@ -18,9 +18,9 @@ public class Main {
         }
     }
 
-    public static void test(int size) {
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
+    public static void test(int multiplyer) {
+        for (int i = 0; i < multiplyer; i++) {
+            for (int k = 0; k < multiplyer; k++) {
                 System.out.print("* ");
             }
             System.out.println();
